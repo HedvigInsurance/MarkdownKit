@@ -18,7 +18,7 @@ let package = Package(
             dependencies: [],
             path: "MarkdownKit",
             exclude: [
-                "Sources/AppKit/**/*"
+                "Sources/AppKit"
             ]),
     ]
 )
