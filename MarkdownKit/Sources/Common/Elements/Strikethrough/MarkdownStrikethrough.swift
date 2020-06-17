@@ -6,6 +6,7 @@
 //
 //
 import Foundation
+import UIKit
 
 open class MarkdownStrikethrough: MarkdownCommonElement {
   fileprivate static let regex = "(.?|^)(\\~\\~|__)(?=\\S)(.+?)(?<=\\S)(\\2)"
