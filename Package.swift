@@ -8,7 +8,6 @@ let package = Package(
     products: [
         .library(
             name: "MarkdownKit",
-            type: .dynamic,
             targets: ["MarkdownKit"]),
     ],
     dependencies: [
